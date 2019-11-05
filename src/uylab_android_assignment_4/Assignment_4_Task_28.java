@@ -27,6 +27,7 @@ public class Assignment_4_Task_28 {
         //declare variable and store value in to it
         float myNum = sc.nextFloat();
 
+        //condition for calculating the value of L
         if (myNum < 100) {
             System.out.println("Value of L is " + (3000 - (125 * (myNum * myNum))));
         } else if (myNum >= 100) {

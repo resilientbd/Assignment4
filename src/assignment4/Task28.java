@@ -8,7 +8,7 @@ public class Task28 {
     public static void main(String[] args) {
     
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter any value : ");
+        System.out.print("Enter the value of 'S' : ");
         int num =scan.nextInt();
         
         int l =3000-(125*num*num);

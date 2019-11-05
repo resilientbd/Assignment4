@@ -23,7 +23,7 @@ public class Assignment_4_Task_05 {
         
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the radius of a circle:");
-        double radius=sc.nextInt();
+        double radius=sc.nextDouble();
         double pi=3.14159;
         double circumference=2*pi*radius;
         double area=pi*(radius*radius);

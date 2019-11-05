@@ -29,8 +29,10 @@ public class Assignment_4_Task_28 {
 
         //condition for calculating the value of L
         if (myNum < 100) {
+            //output the result
             System.out.println("Value of L is " + (3000 - (125 * (myNum * myNum))));
         } else if (myNum >= 100) {
+            //output the result
             System.out.println("Value of L is " + (12000 / (4 + ((myNum * myNum) / 14900))));
         }
     }

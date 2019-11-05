@@ -7,7 +7,7 @@ public class Task32 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the value od 'Q' : ");
+        System.out.print("Enter the value of 'Q' : ");
         int q = scan.nextInt();
 
         int p = 6000+(15*q*q);

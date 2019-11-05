@@ -9,28 +9,28 @@ public class Task25 {
 
         Scanner s = new Scanner(System.in);
         System.out.print("Enter your salary amount : ");
-        int amount = s.nextInt();
+        float amount = s.nextFloat();
         
         System.out.print("Enter your age : ");
         int age = s.nextInt();
         
         Scanner ss = new Scanner(System.in);
-        System.out.print("Your Post : ");
+        System.out.print("Your Post (ex: President,Employee etc) : ");
         String post = ss.nextLine();
         
         if(age<18){
-            System.out.println("\nYour Salary without any tax is "+amount+" Tk");
+            System.out.println("\nYou dont have any tax");
         }
         else if(post.equalsIgnoreCase("president")){
-            System.out.println("\nYour Salary without any tax is "+amount+" Tk");
+            System.out.println("\nYou dont have any tax");
         }
         else{
         if(amount<10000){
-            System.out.println("\nYour Salary without any tax is "+amount+" Tk");
+            System.out.println("\nYou dont have any tax");
         }else if((amount>=10000)&&(amount<=20000)){
-            System.out.println("\nYour Salary with 5% tax is "+(amount*0.95)+" Tk");
+            System.out.println("\nYour tax is 5% of your salary, and it is "+(amount*0.05)+" Tk");
         }else{
-            System.out.println("\nYour Salary with 10% tax is "+(amount*0.90)+" Tk");
+            System.out.println("\nYour tax is 10% of your salary, and it is "+(amount*0.10)+" Tk");
         }
     }
     }

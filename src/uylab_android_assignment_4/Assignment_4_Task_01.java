@@ -18,7 +18,7 @@ public class Assignment_4_Task_01 {
         /*
         Write the Java code of a program that prints the first ten positive whole numbers. [Do NOT use loops]
         */
-        System.out.println("1\n2\n3\n4\n5\n6\n7\n8\n9\n10");
+        System.out.println("1\n2\n3\n4\n5\n6\n7\n8\n9\n10") ;
         
         
     }
